@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&display=swap');
+
+html{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+body{
+	background-color: #f7f8f9;
+	margin: 0px;
+	padding: 0px;
+}
+/*NAV OPTION 1 BEGINS*/
+.nav{
+	width: 100%;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	background-color: #c5daf1;
+
+}
+
+.fn-logo{
+	width: 260px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav-text{
+	/*background-color: #66797f;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+
+	}
+
+.nav-link{
+	list-style: none;
+	display: inline-block;
+	font-family: 'nunito', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-top: 12px;
+	padding-right: 5%;
+	padding-bottom:12px;
+	padding-left: 5%;
+	margin: 0px;
+	color: #102331;
+
+}
+.nav-link:hover{
+	background-color: white;
+	color: #102331;
+	border-radius: 5px;
+}
+	
+a{
+	text-decoration: none;
+	color: #102331;
+}
+
+.pg-heading{
+	font-family: 'Nunito', sans-serif;
+	font-style: bold;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	color: #231f20;
+
+	
+}
+.fn{
+font-family: 'Nunito', sans-serif;
+	font-style: bold;
+	text-align: center;
+	font-size: 70px;
+	color: #102331;
+	margin: 70px;
+}
+
+
+
+.section-one{
+
+	text-align: center;
+}
+.home-img{
+	width: 80%;
+	border-radius: 20px;
+}
+.quote{
+	font-family: 'Lato', sans-serif;
+	/*make italicised?*/
+	font-weight: 400;
+}
+.home-pg{
+	text-align: center;
+}
+.subhead{
+	font-family: 'nunito', sans-serif;
+	color: #102331;
+	margin-top: 5%;
+	font-size: 40px;
+}
+.home-info{
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	width: 60%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	font-size: 25px;
+	color: #102331;
+}
+.icon-div{
+	text-align: center;
+	padding-top: 20px;
+	
+}
+.icon-bg{
+	width: 130px;
+	height: 130px;
+	background-color: #31485b;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.icon{
+	width: 100px;
+	height: 100px;
+	margin-top: 50%;
+	transform:translateY(-50%);
+}
+.icon-text{
+	display: inline-block;
+	font-family: 'lato', sans-serif;
+	margin-right: 55px;
+	margin-left: 55px;
+	font-size: 25px;
+	margin-top: -20px;
+	margin-bottom: 100px;
+	color: #102331;
+	width: 100px;
+}
+.column{
+float: left;
+display: inline-block;
+width: 50%;
+
+}
+.adopt-info{
+	
+	padding-right: 10%;
+	padding-left:10%;
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #102331;
+}
+.quote{
+	text-align: center;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 5%;
+	color: #102331;
+}
+.adopt-img{
+	width: 900px;
+	margin-top: 10%;
+	border-radius: 10px;
+	
+}
+.foster-img{
+	width: 750px;
+	margin-top: 10%;
+	border-radius: 10px;
+}
+.ext-link{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.sylvester{
+	width: 100%;
+	text-align: center;
+}
+.sylv-sub{
+	font-family: 'nunito', sans-serif;
+	font-size: 30px;
+	margin-top:60px;
+	margin-bottom: 20px;
+	color: #102331;
+	
+	
+}
+.sylv-img{
+	width: 500px;
+	border-radius: 50%;
+	margin-top: 60px;
+}
+
+form{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+label{
+	font-family: 'lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.form-heading{
+	font-family: nunito, sans-serif;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: #231f20;
+}
+button{
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 50%;
+	transform: translate(-50%);
+	background-color: #31485b;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	font-family: nunito, sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+}
+#message{
+	height: 80px;
+}
+@media only screen and (max-device-width: 480px){
+
+	.fn-logo{
+		width: 220px;
+	}
+	.nav-link{
+	font-size: 20px;
+	padding-top: 0px;
+	}
+	.fn{
+		font-size: 35px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.home-img{
+		width: 100%;
+		border-radius: 0;
+	}
+	.pg-heading{
+		font-size: 30px;
+		margin-bottom: 0;
+	
+	}
+	.column{
+		display: block;
+		float: none;
+		width: 100%;
+		padding: 0px;
+	}
+	.subhead{
+		font-size: 25px;
+
+	}
+	.home-info{
+		font-size: 18px;
+		width: 90%;
+	}
+	.icon-div{
+		display: none;
+	}
+	.sylv-img{
+		width: 60%;
+		margin-top: 20px;
+	}
+	
+	.sylv-sub{
+		margin-top: 20px;
+		font-size:25px;
+		margin-bottom: 25px;
+
+	}
+	.quote{
+		font-size: 20px;
+		
+	}
+	.adopt-info, .foster-info{
+		width: 90%;
+		font-size: 18px;
+		padding-left:25px;
+		padding-right: 25px;
+	}
+	form{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 25px;
+
+	}
+	.form-heading{
+		text-align: left;
+		font-size: 30px;
+		width: 90%;
+		padding-left: 25px;
+	}
+	label{
+		font-size:18px;
+	}
+	.adopt-img{
+		width: 100%;
+		margin:0px;
+		border-radius: 0;
+	}
+	.foster-img{
+		width: 100%;
+		border-radius: 0px;
+	}
+
+
+}
+@media only screen and (max-device-width: 992px) and (min-device-width:480px) {
+	
+		.fn-logo{
+		width: 220px;
+	}
+	.nav-link{
+	font-size: 20px;
+	padding-top: 0px;
+	}
+	.fn{
+		font-size: 55px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.home-img{
+		width: 100%;
+		border-radius: 0;
+	}
+	.pg-heading{
+		font-size: 45px;
+		margin-bottom: 0;
+	
+	}
+	.column{
+		display: block;
+		float: none;
+		width: 100%;
+		padding: 0px;
+	}
+	.subhead{
+		font-size: 35px;
+
+	}
+	.home-info{
+		font-size: 25px;
+		width: 90%;
+	}
+	.icon-div{
+		display: none;
+	}
+	.sylv-img{
+		width: 60%;
+		margin-top: 20px;
+	}
+	
+	.sylv-sub{
+		margin-top: 20px;
+		font-size:35px;
+		margin-bottom: 25px;
+
+	}
+	.quote{
+		font-size: 25px;
+		
+	}
+	.adopt-info, .foster-info{
+		width: 90%;
+		font-size: 25px;
+		padding-left:50px;
+		padding-right: 25px;
+	}
+	form{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 25px;
+
+	}
+	.form-heading{
+		text-align: left;
+		font-size: 35px;
+		width: 90%;
+		padding-left: 25px;
+	}
+	label{
+		font-size:22px;
+	}
+	.adopt-img{
+		width: 100%;
+		margin:0px;
+		border-radius: 0;
+	}
+	.foster-img{
+		width: 100%;
+		border-radius: 0px;
+	}
+}
